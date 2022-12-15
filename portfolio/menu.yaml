@@ -1,0 +1,17 @@
+menu:
+  index: Accueil
+  apropos: A propos
+  competences: Compétences 
+  experience: Expérience
+  formation: Formation
+  contact: Contact
+réseaux:
+  instagram: 
+      url: https://www.instagram.com/_guillaume_lr_/
+      icone: instagram.png
+  linkedin: 
+      url: https://www.linkedin.com/in/guillaume-loir-8b0665257
+      icone: linkedin.jpg
+  github: 
+      url: https://github.com/loirg
+      icone: github.jpg
