@@ -1,0 +1,569 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+	box-sizing: border-box;
+	font-family: monospace;
+}
+
+body {
+	background-color: black;
+	color: white;
+	background-image: radial-gradient(circle at center center, rgba(33,33,33,0),rgb(9,9,9)),repeating-linear-gradient(135deg, rgb(9,9,9) 0px, rgb(9,9,9) 1px,transparent 1px, transparent 4px),repeating-linear-gradient(45deg, rgb(82, 0, 0) 0px, rgb(75, 1, 1) 5px,transparent 5px, transparent 6px),linear-gradient(90deg, rgb(9,9,9),rgb(9,9,9));
+}
+
+footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgb(0, 0, 0);
+	color: rgb(255, 0, 0);
+	padding: 4px auto;
+	margin-right: 0px;
+  }
+
+  footer p{
+	font-size: 15px;
+	opacity: 0.4;
+	text-align: center;
+}
+
+.menu {
+	position: sticky;
+	top: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 15px;
+	background-color: black;
+	border-bottom: 2px solid;
+	border-bottom-color: rgb(255, 0, 0);
+	box-shadow: 1px 1px 1px rgb(255, 0, 0);
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.menu a {
+	border: 2.5px solid red;
+	border-radius: 4px;
+	color: white;
+	min-width: 60px;
+	padding: 0.4rem 0.65rem;
+	text-align: center;
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(255, 0, 0);
+	background-color: rgb(75, 6, 6);
+	font-size: larger;
+	transition: 1s;
+}
+
+.menu>li {
+	display: flex;
+	align-items: center;
+	height: 30px;
+	font-size: 14px;
+	margin: 0px 2.5%;
+}
+
+.menu>.ver{
+	border-left: 2px solid red;
+	display: block;
+	height: 40px;
+	width: 10px;
+}
+
+.MOI {
+	font-size: 70px;
+	margin-top: 250px;
+	text-align: center;
+}
+
+.MOI:hover {
+	text-shadow: 4px 2px 2px rgb(255, 0, 0);
+}
+
+.Nom {
+	font-size: 70px;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.menu .icn {
+	border: 0px;
+}
+
+.menu .icn img {
+	width: 30px;
+}
+
+#phid {
+	width: 300px;
+	float: right;
+	margin: 0px 5%;
+	padding: 5px;
+	border: solid gray 2px;
+}
+
+.text_propos {
+	font-size: 30px;
+	padding-left: 5%;
+	padding-right: 40px;
+	margin-bottom: 10px;
+}
+
+.formation {
+	min-width: 120px;
+	margin: 0.5rem;
+	padding: 0.8rem 0.5rem;
+	text-align: center;
+	border: 2.5px solid red;
+	border-radius: 4px;
+	width: 50%;
+	margin-left: 25%;
+	margin-top: 30px;
+	
+}
+
+.formation>p {
+	font-size: 20px;
+	line-height: 40px;
+	color: white;
+}
+
+.barre {
+	border-top: 2px solid;
+	color: red;
+	display: block;
+	height: 40px;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 8%;
+}
+
+.nom_propos {
+	/*border: solid red 2px;*/
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.post-contact {
+	/*border: solid red 2px;*/
+	text-align: center;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.Nom_formation {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 50px;
+}
+
+.formulaire {
+	border: 4px solid red;
+	border-radius: 4px;
+	margin-left: 25%;
+	margin-top: 5%;
+	/*transform: translate(-50%,10%);*/
+	width: 50%;
+	text-align: center;
+	font-size: 25px;
+	padding-top: 50px;
+}
+
+.formulaire p {
+	margin: 30px;
+}
+
+.form-status {
+	display: flex;
+	align-self: center;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 10px auto;
+	border: 4px solid;
+	font-size: calc(10px + 1.01vw);
+	background-color: black;
+	color: red;
+	width: 70%;
+}
+
+.form-status:hover {
+	background-color: rgb(39, 2, 2);
+	transition: 1s;
+}
+
+.form-control {
+	display: flex;
+	align-self: center;
+	border-radius: 25px;
+	padding: 10px;
+	margin: 10px auto;
+	border: 4px solid;
+	font-size: calc(10px + 1.01vw);
+	background-color: black;
+	color: red;
+	width: 100%;
+}
+
+.form-control:hover {
+	background-color: rgb(39, 2, 2);
+	transition: 1s;
+}
+
+.btn-btn-default{
+	display: inline-block;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px auto;
+	font-size: calc(8px + 1.01vw);
+	width: 30%;
+	border: 6px solid red;
+	background-color: black;
+	color: rgb(255, 255, 255);
+}
+
+.btn-btn-default2{
+	display:flex;
+	border-radius: 10px;
+	margin: 10px auto;
+	font-size: calc(8px + 1.01vw);
+	width: 10%;
+	color: rgb(255, 255, 255);
+	transform: translate(15%);
+}
+
+.btn-btn-default2 a{
+	border: 2.5px solid red;
+	border-radius: 4px;
+	color: white;
+	min-width: 60px;
+	padding: 0.4rem 0.65rem;
+	text-align: center;
+	text-decoration: none;
+	background-color: black;
+}
+
+.btn-btn-default2 a:hover {
+	color: red;
+	background-color: rgb(51, 8, 8);
+}
+
+.btn-btn-default:hover{
+	color: red;
+	background-color: black;
+	box-shadow: 2px 2px 2px red;
+	transition: 1s;
+	font-size: larger;
+}
+
+.container {
+	margin: 20px 10px 50px;
+	background-color: rgb(202, 4, 4);
+	width: 60%;
+	border-radius: 15px;
+}
+
+.container:hover {
+	transition: 1s;
+	background-color: rgb(45, 1, 1);
+}
+
+.cv img {
+	margin: auto;
+	width: 50px;
+}
+
+.cv img:hover {
+	width: 60px;
+	transition: 1s;
+}
+
+.box>.cv {
+	border: 2px solid rgb(69, 0, 0);
+	border-radius: 4px;
+	margin: 48.7%;
+	padding-top: 60px;
+}
+
+
+@media (max-width: 1444px) {
+	.box>.cv {
+		margin: 48.2%
+	}
+	
+	.Nom {
+		font-size: 60px;
+	}
+
+	.menu>li{
+		padding-left: 5px;
+		font-size: 10px;
+		margin: 4px 2%;
+	}
+
+	.formation>p {
+		font-size: 15px;
+		line-height: 35px;
+	}
+	
+	.menu .icn img {
+		width: 22px;
+	}
+
+}
+
+@media (max-width: 1080px) {
+	
+	.text_propos {
+		font-size: 25px;
+	}
+
+	.formation>p {
+		font-size: 12px;
+		line-height: 25px;
+	}
+
+	.formulaire {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	footer marquee{
+		font-size: 10px;
+	}
+
+}
+
+@media (max-width: 840px) {
+
+	.btn-btn-default2{
+		width: 100px;
+	}
+
+	.nom_propos {
+		font-size: 23px;
+	}
+
+	.post-contact {
+		font-size: 17px;
+	}
+
+	.text_propos {
+		font-size: 23px;
+	}
+
+}
+
+@media (max-width: 800px) {
+	
+	.menu{
+		position: static;
+		display: block;
+		text-align: center;
+	}
+
+	.menu>li{
+		display: block;
+		padding-left: 5px;
+		font-size: 14px;
+	}
+
+	.menu>.ver {
+		display: none;
+	}
+	
+	.menu .icn img {
+		width: 30px;
+	}
+
+}
+
+@media (max-width: 691px) {
+	.Nom {
+		font-size: 50px;
+	}
+
+	.MOI {
+		font-size: 50px;
+		margin-top: 200px;
+	}
+
+}
+
+@media screen and (max-device-width: 1000px){
+	.box>.cv {
+		margin: 46%;
+	}
+
+	footer marquee {
+		font-size: 24px;
+	}
+
+	.menu{
+		position: static;
+		display: block;
+		text-align: center;
+	}
+
+	.menu a {
+		border: 4px solid red;
+	}
+
+	.menu>li{
+		display: block;
+		padding-left: 5px;
+		font-size: 25px;
+		margin: 35px
+	}
+
+	.menu>.ver {
+		display: none;
+	}
+	
+	.menu .icn img {
+		width: 50px;
+	}
+
+	.Nom {
+		font-size: 60px;
+	}
+
+	.barre {
+		border-top: 3.5px solid;
+	}
+
+	.text_propos {
+		font-size: 2rem;
+	}
+
+	.formation {
+		border: 4px solid red;
+		width: 88%;
+		margin-left: 6%;
+	}
+
+	.formation>p{
+		font-size: 25px;
+		line-height: 50px;
+	}
+
+	.Nom_formation {
+		font-size: 70px;
+	}
+
+	.formulaire {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.form-status {
+		border-radius: 5px;
+		width: 90%;
+		border: 4px solid red;
+		font-size: 30px;
+	}
+
+	.form-control{
+		border-radius: 5px;
+		border: 4px solid red;
+		font-size: 30px;
+	}
+
+	.btn-btn-default{
+		border-radius: 5px;
+		border: 4px solid red;
+		font-size: 30px;
+		width: 40%;
+	}
+
+	#phid {
+		width: 280px;
+	}
+
+	.btn-btn-default2{
+		width: 100px;
+		font-size: calc(20px + 1.01vw);
+	}
+	
+	.btn-btn-default2 a{
+		border: 4px solid red;
+		border-radius: 6px;
+		color: white;
+		min-width: 180px;
+		padding: 1.8rem 0.65rem;
+		text-align: center;
+		text-decoration: none;
+		background-color: black;
+		transform: translate(-25%);
+	}
+	
+	.container {
+		width: 80%;
+	}
+
+	.cv img {
+		width: 60px;
+	}
+	
+}
+
+.skill {
+	background-color: black;
+	color: white;
+	padding: 1%;
+	text-align: right;
+	font-size: 18px;
+	border-radius: 15px;
+	border-style: solid;
+	border-color:rgb(202, 4, 4);
+	border-width: 5px;
+	margin-top: 15px;
+}
+
+.skill:hover {
+	background-color: red;
+	border-color: black;
+	transition: 1s;
+}
+
+.nom_skill {
+	margin-left: 15px;
+	font-size: 25px;
+}
+
+h2 {
+	margin-top: 10px;
+	text-align: left;
+}
+
+h3 {
+	margin-left: 10px;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	font-size: 35px;
+}
+
+@media (max-width: 691px) {
+	
+	h3 {
+		font-size: 28px;
+	}
+
+	.skill {
+		font-size: 15px;
+		border-width: 4px;
+	}
+
+	.nom_skill {
+		font-size: 20px;
+	}
+
+}
