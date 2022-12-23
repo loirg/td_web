@@ -30,8 +30,7 @@ $footer=yaml_parse_file('footer.yaml');
     <p>
         Votre civilité : <br />
         <input type="radio" name="civi" value="Mme"/> Madame <br />
-        <input type="radio" name="civi" value="Mr" /> Monsieur<br />
-        <input type="radio" name="civi" value="AirBus A380" /> AirBus A380
+        <input type="radio" name="civi" value="Mr" /> Monsieur
     </p>
     <p>
    Votre statut professionnel : <br />
