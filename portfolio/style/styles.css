@@ -57,6 +57,7 @@ footer {
 a:hover {
 	color: rgb(255, 0, 0);
 	background-color: rgb(75, 6, 6);
+	font-size: larger;
 }
 
 .menu>li {
