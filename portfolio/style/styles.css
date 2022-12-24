@@ -106,7 +106,7 @@ a:hover {
 	  }
   }
 
-.enlarge {
+/*.enlarge {
     animation: enlarge 1s ease-in-out forwards;
 }
 
@@ -117,7 +117,7 @@ a:hover {
     100% {
       transform: scale(1.2);
     }
-}
+}*/
 
 .fade-in-out {
     animation: ease-in-out 3s fade-in-out;
