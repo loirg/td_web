@@ -91,6 +91,45 @@ a:hover {
 	font-size: 70px;
 	margin-top: 250px;
 	text-align: center;
+    animation: shine 1s ease-in-out infinite;
+}
+
+@keyframes shine {
+    0% {
+      text-shadow: 0 0 20px rgba(255, 255, 255, 0);
+    }
+    50% {
+      text-shadow: 0 0 20px rgb(149, 149, 149);
+    }
+	100% {
+		text-shadow: 0 0 20px rgba(255, 255, 255, 0);
+	  }
+  }
+
+.enlarge {
+    animation: enlarge 1s ease-in-out forwards;
+}
+
+  @keyframes enlarge {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.2);
+    }
+}
+
+.fade-in-out {
+    animation: ease-in-out 3s fade-in-out;
+}
+
+  @keyframes fade-in-out {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
 }
 
 .MOI:hover {
