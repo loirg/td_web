@@ -22,7 +22,7 @@ $footer=yaml_parse_file('footer.yaml');
 		<?php
 		$data=yaml_parse_file('apropos.yaml');
         /*print_r($data);*/
-        echo '<p class="Nom">'.$data['propos'].'</p>'
+        echo '<p class="Nom">'.$data['propos'].'</p>';
         echo '<p class="nom_propos">'.$data['nom'].'</p>';
 		echo '<div class="barre"></div>';
         echo '<h2 class="text_propos">'.$data['accroche'].'</h2>';
