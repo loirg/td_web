@@ -2,7 +2,7 @@
 
 $menu=yaml_parse_file('menu.yaml');
 $footer=yaml_parse_file('footer.yaml');
-//echo '<pre>'.print_r($yamlContent,true).'</pre>'
+//echo '<pre>'.print_r($yamlContent,true).'</pre>';
 ?>
 
 
